@@ -1,0 +1,227 @@
+/*
+purple
+6D2E5B
+
+lightblue
+D3E5FF
+
+green
+F4FFF7
+
+tan
+F2D4BF
+
+grey
+999999
+*/
+
+html {
+  background: url(alleyway.jpg) no-repeat center fixed;
+  -webkit-backgroun-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.content-wrap {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: auto;
+}
+
+.App {
+  text-align: center;
+  /* justify-content: center; */
+  /* background-color: #6D2E5B50; */
+  margin: 0;
+  width: 100%
+}
+
+.App-header {
+  /* height: 40px; */
+  padding: 35px;
+  /* max-width: 80vw; */
+  color: white;
+  background-color: #def09265;
+}
+
+.pageTitle {
+  color: #111111;
+  /* position: absolute; */
+  /* top: 0; */
+  /* height: 50px; */
+  background-color: #999999;
+  opacity: 0.7;
+}
+
+footer {
+  /* margin: 30px 0px 0px 0px; */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 90%;
+  margin:auto;
+  /* align-items: center; */
+  position: sticky;
+}
+
+footer a {
+  color: white;
+  font-size: 1em;
+}
+
+/* ----------ALL LISTS---------- */
+
+.allCategories {
+  /* justify-content: center; */
+  /* position: absolute; */
+  width: 80vw;
+  background-color: #F4FFF7;
+  opacity: 0.8;
+  padding: 15px;
+  border-radius: 10px 10px 0px 0px;
+  /* margin: 10px; */
+}
+
+.createCatForm {
+  width: 80vw;
+  background-color: #F2D4BF;
+  opacity: 0.8;
+  padding: 15px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.createCatForm input{
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #6D2E5B;
+  padding: 5px;
+}
+
+.createCatForm button{
+  background-color: #F2D4BF95;
+  color: #6D2E5B;
+  /* box-shadow: 10px black solid; */
+  border: 1px solid #6D2E5B;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 6px;
+  margin: 0px 0px 0px 4px;
+  -webkit-transition-duration: 0.4s;
+}
+
+.createCatForm button:hover {
+  background-color: #6D2E5B;
+  border: 1px solid #6D2E5B;
+  color: #D3E5FF;
+}
+
+
+/* ----------INDIVID CATEGORY---------- */
+
+.categorySection {
+  /* background-color: #10d; */
+  padding: 15px;
+  margin: 8px 8px;
+  border: 2px solid #6D2E5B;
+}
+
+.catTitle {
+  display: inline-block;
+  margin: 0px 0px 12px 0px;
+  color: #6D2E5B;
+}
+
+.ulCatComp {
+  /* background-color: #87a; */
+  padding: 10px;
+  color: #333;
+  list-style-type: none;
+}
+
+.addItemForm {
+  background-color: #F2D4BF;
+  padding: 15px;
+  border-radius: 5px;
+  width: 40vw;
+  /* border-bottom: 2px solid red; */
+}
+
+.addItemForm input {
+  background-color: #F2D4BF;
+  padding: 5px;
+  width: 20vw;
+  /* margin: 0px 80px; */
+  border: none;
+  border-bottom: 2px solid #6D2E5B;
+}
+
+.addItemForm button {
+  background-color: #F2D4BF;
+  color: #6D2E5B;
+  /* box-shadow: 10px black solid; */
+  border: 1px solid #6D2E5B;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 7px 4px;
+  margin: 0px 0px 0px 4px;
+  -webkit-transition-duration: 0.4s;
+}
+
+.addItemForm button:hover{
+  background-color: #6D2E5B;
+  border: 1px solid #6D2E5B;
+  color: #D3E5FF;
+}
+
+.deleteButton {
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  color: #6D2E5B;
+  float: right;
+  -webkit-transition-duration: 0.4s;
+  /* position: absolute; */
+  /* top: 50%; */
+  /* right: 5%; */
+}
+
+.deleteButton:hover {
+  color: red;
+}
+
+/* ----------INDIVID ITEMS---------- */
+
+.liItem {
+  background-color: #D3E5FF;
+  /* position: relative; */
+  padding: 0;
+  border-radius: 10px;
+  margin: 8px 40px 8px 8px;
+  /* border: 0.5px solid black; */
+  /* list-style-type: none; */
+}
+
+.liItem h4 {
+  padding: 0px 15px;
+}
+
+/* trying to change the background color if completed */
+/* .liItem .itemButton .completedItem{
+  background-color: #333;
+} */
+
+.itemButton {
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  /* color: #de1320; */
+  background-color: transparent;
+}
+
+.completedItem {
+  text-decoration: line-through;
+  color: #999999;
+}
