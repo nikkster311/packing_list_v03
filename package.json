@@ -2,7 +2,7 @@
   "name": "portfolioproj01",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nikkster311.github.io/packing_list_v01",
+  "homepage": "https://nikkster311.github.io/packing_list_v02",
   "dependencies": {
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
@@ -27,7 +27,9 @@
   ],
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nikkster311/packing_list_v01.git"
