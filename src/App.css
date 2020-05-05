@@ -14,8 +14,16 @@ F2D4BF
 grey
 999999
 */
+*{
+  box-sizing: border-box;
+}
 
 html {
+  padding: 0;
+}
+
+body {
+  border:0px;
   background: url(alleyway.jpg) no-repeat center fixed;
   -webkit-backgroun-size: cover;
   -moz-background-size: cover;
@@ -24,7 +32,8 @@ html {
 }
 
 .content-wrap {
-    max-width: 900px;
+    /* max-width: 900px; */
+
     margin: 0 auto;
     padding: 20px;
     overflow: auto;
@@ -38,13 +47,10 @@ html {
   width: 100%
 }
 
-.App-header {
-  /* height: 40px; */
-  padding: 35px;
-  /* max-width: 80vw; */
-  color: white;
-  background-color: #def09265;
+.main{
+  min-height: calc(100vh - 145px);
 }
+
 
 .pageTitle {
   color: #111111;
@@ -52,23 +58,30 @@ html {
   /* top: 0; */
   /* height: 50px; */
   background-color: #999999;
-  opacity: 0.7;
+  min-width: 90vw;
+  opacity: 0.9;
 }
 
 footer {
   /* margin: 30px 0px 0px 0px; */
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 90%;
+  min-width: 90vw;
   margin:auto;
   /* align-items: center; */
-  position: sticky;
+  /* position: sticky; */
+  /* height: 40px; */
+  padding: 1em;
+  /* max-width: 80vw; */
+  color: white;
+  background-color: #def09299;
 }
 
 footer a {
-  color: white;
+  color: #fff;
   font-size: 1em;
+}
+
+footer a:hover {
+  color: #eee;
 }
 
 /* ----------ALL LISTS---------- */
@@ -78,7 +91,7 @@ footer a {
   /* position: absolute; */
   width: 80vw;
   background-color: #F4FFF7;
-  opacity: 0.8;
+  opacity: 0.9;
   padding: 15px;
   border-radius: 10px 10px 0px 0px;
   /* margin: 10px; */
@@ -87,7 +100,7 @@ footer a {
 .createCatForm {
   width: 80vw;
   background-color: #F2D4BF;
-  opacity: 0.8;
+  opacity: 0.95;
   padding: 15px;
   border-radius: 0px 0px 10px 10px;
 }
@@ -108,7 +121,7 @@ footer a {
   border-radius: 3px;
   padding: 6px;
   margin: 0px 0px 0px 4px;
-  -webkit-transition-duration: 0.4s;
+  -webkit-transition-duration: 0.2s;
 }
 
 .createCatForm button:hover {
@@ -119,6 +132,12 @@ footer a {
 
 
 /* ----------INDIVID CATEGORY---------- */
+@media(max-width: 768px) {
+  .mappedItems {
+    width: 100%;
+    padding: 0;
+  }
+}
 
 .categorySection {
   /* background-color: #10d; */
@@ -198,6 +217,7 @@ footer a {
   background-color: #D3E5FF;
   /* position: relative; */
   padding: 0;
+  width:100%;
   border-radius: 10px;
   margin: 8px 40px 8px 8px;
   /* border: 0.5px solid black; */

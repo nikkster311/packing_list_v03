@@ -43,6 +43,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="pageTitle content-wrap"> Packing List</h1>
+        <div className="main">
         <AllLists //container with ALL of the category components
           catList={this.state.catList}
           deleteCategory={this.deleteCategory}/>
@@ -50,7 +51,8 @@ class App extends Component {
           onSubmit={this.submitNewCat}
           handleInput={this.handleInputNewCat}
           currentCategory={this.state.currentCategory} />
-        <footer className="App-header"> <a href="https://nikkster.tech">nikkster.tech</a></footer>
+          </div>
+        <footer> <a href="https://nikkster.tech">nikkster.tech</a></footer>
 
       </div>
     );
