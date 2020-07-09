@@ -1,23 +1,14 @@
 {
-  "files": {
-    "main.css": "/packing_list_v03/static/css/main.5f8ff117.chunk.css",
-    "main.js": "/packing_list_v03/static/js/main.ad4435ce.chunk.js",
-    "main.js.map": "/packing_list_v03/static/js/main.ad4435ce.chunk.js.map",
-    "runtime-main.js": "/packing_list_v03/static/js/runtime-main.936fffb3.js",
-    "runtime-main.js.map": "/packing_list_v03/static/js/runtime-main.936fffb3.js.map",
-    "static/js/2.c5e51fab.chunk.js": "/packing_list_v03/static/js/2.c5e51fab.chunk.js",
-    "static/js/2.c5e51fab.chunk.js.map": "/packing_list_v03/static/js/2.c5e51fab.chunk.js.map",
-    "index.html": "/packing_list_v03/index.html",
-    "precache-manifest.41bcda5ad0f760dace38695db5652fb1.js": "/packing_list_v03/precache-manifest.41bcda5ad0f760dace38695db5652fb1.js",
-    "service-worker.js": "/packing_list_v03/service-worker.js",
-    "static/css/main.5f8ff117.chunk.css.map": "/packing_list_v03/static/css/main.5f8ff117.chunk.css.map",
-    "static/js/2.c5e51fab.chunk.js.LICENSE.txt": "/packing_list_v03/static/js/2.c5e51fab.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/packing_list_v03/static/media/alleyway.2a868134.jpg"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.936fffb3.js",
-    "static/js/2.c5e51fab.chunk.js",
-    "static/css/main.5f8ff117.chunk.css",
-    "static/js/main.ad4435ce.chunk.js"
-  ]
+  "main.css": "/packing_list_v02/static/css/main.337f6623.chunk.css",
+  "main.js": "/packing_list_v02/static/js/main.8c52749e.chunk.js",
+  "main.js.map": "/packing_list_v02/static/js/main.8c52749e.chunk.js.map",
+  "runtime~main.js": "/packing_list_v02/static/js/runtime~main.18b553f1.js",
+  "runtime~main.js.map": "/packing_list_v02/static/js/runtime~main.18b553f1.js.map",
+  "static/js/2.32917cb6.chunk.js": "/packing_list_v02/static/js/2.32917cb6.chunk.js",
+  "static/js/2.32917cb6.chunk.js.map": "/packing_list_v02/static/js/2.32917cb6.chunk.js.map",
+  "index.html": "/packing_list_v02/index.html",
+  "precache-manifest.680de46b34dd2d3303407688667754da.js": "/packing_list_v02/precache-manifest.680de46b34dd2d3303407688667754da.js",
+  "service-worker.js": "/packing_list_v02/service-worker.js",
+  "static/css/main.337f6623.chunk.css.map": "/packing_list_v02/static/css/main.337f6623.chunk.css.map",
+  "static/media/App.css": "/packing_list_v02/static/media/alleyway.2a868134.jpg"
 }
