@@ -33,11 +33,12 @@ body {
 
 .content-wrap {
     /* max-width: 900px; */
-
     margin: 0 auto;
     padding: 20px;
     overflow: auto;
 }
+
+
 
 .App {
   text-align: center;
@@ -53,11 +54,12 @@ body {
 
 
 .pageTitle {
-  color: #111111;
+  color: #6D2E5B;
   /* position: absolute; */
   /* top: 0; */
   /* height: 50px; */
-  background-color: #999999;
+  background-color: #F2D4BF;
+  opacity: 0.95;
   min-width: 90vw;
   opacity: 0.9;
 }
@@ -72,16 +74,25 @@ footer {
   padding: 1em;
   /* max-width: 80vw; */
   color: white;
-  background-color: #def09299;
+  background-color: #ad74db20;
 }
 
 footer a {
-  color: #fff;
+  color: #6D2E5B;
   font-size: 1em;
 }
 
 footer a:hover {
-  color: #eee;
+  background-color: #6D2E5B;
+  border: 1px solid #6D2E5B;
+  color: #D3E5FF;
+}
+
+.footer-div {
+  background-color: #F4FFF7;
+  opacity: 0.6;
+  border: 2px solid #6D2E5B;
+
 }
 
 /* ----------ALL LISTS---------- */
@@ -89,16 +100,22 @@ footer a:hover {
 .allCategories {
   /* justify-content: center; */
   /* position: absolute; */
-  width: 80vw;
+  /* min-width: 80vw; */
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  /* justify-content: center;
+  align-items: center; */
   background-color: #F4FFF7;
   opacity: 0.9;
   padding: 15px;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0 0;
+  margin-top: 7px;
   /* margin: 10px; */
 }
 
 .createCatForm {
-  width: 80vw;
+  /* width: 80vw; */
   background-color: #F2D4BF;
   opacity: 0.95;
   padding: 15px;
@@ -140,14 +157,42 @@ footer a:hover {
 }
 
 .categorySection {
-  /* background-color: #10d; */
+  background-color: #ad74db20;
   padding: 15px;
-  margin: 8px 8px;
+  /* text-align: center; */
+  /* margin: 8px 8px; */
+  margin:auto;
+  margin-bottom: 10px;
   border: 2px solid #6D2E5B;
+  width: 300px;
+  height: 300px;
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* margin: -70px 0 0 -170px; */
+
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #555;
 }
 
 .catTitle {
   display: inline-block;
+  font-size: 18px;
   margin: 0px 0px 12px 0px;
   color: #6D2E5B;
 }
@@ -163,14 +208,14 @@ footer a:hover {
   background-color: #F2D4BF;
   padding: 15px;
   border-radius: 5px;
-  width: 40vw;
+  max-width: 40vw;
   /* border-bottom: 2px solid red; */
 }
 
 .addItemForm input {
   background-color: #F2D4BF;
   padding: 5px;
-  width: 20vw;
+  width: 80%;
   /* margin: 0px 80px; */
   border: none;
   border-bottom: 2px solid #6D2E5B;
@@ -197,6 +242,7 @@ footer a:hover {
 .deleteButton {
   background-color: transparent;
   border: none;
+  /* bottom: 0px; */
   padding: 5px;
   cursor: pointer;
   color: #6D2E5B;
@@ -217,15 +263,17 @@ footer a:hover {
   background-color: #D3E5FF;
   /* position: relative; */
   padding: 0;
-  width:100%;
+  /* width:100%; */
   border-radius: 10px;
-  margin: 8px 40px 8px 8px;
+  /* margin: 8px 40px 8px 8px; */
+  margin: auto;
+  margin-bottom: 5px;
   /* border: 0.5px solid black; */
   /* list-style-type: none; */
 }
 
 .liItem h4 {
-  padding: 0px 15px;
+  padding: 0px 20px;
 }
 
 /* trying to change the background color if completed */
@@ -237,6 +285,7 @@ footer a:hover {
   cursor: pointer;
   padding: 0;
   border: none;
+  width: 85%;
   /* color: #de1320; */
   background-color: transparent;
 }
@@ -244,4 +293,5 @@ footer a:hover {
 .completedItem {
   text-decoration: line-through;
   color: #999999;
+  font-weight: lighter;
 }

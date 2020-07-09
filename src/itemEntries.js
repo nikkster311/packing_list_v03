@@ -16,7 +16,10 @@ class ItemEntries extends React.Component {
           {item.completed ?
           <h4 className="completedItem">{item.name}</h4> : <h4>{item.name}</h4>}
         </button>
-        <button className="deleteButton" onClick={() => { this.props.deleteItem(item.key) }}>
+
+        <button className="deleteButton"
+          onClick={() => { if (window.confirm('Are you sure you want to delete this item?')) {
+            this.props.deleteItem(item.key) }}}>
           <i className="far fa-trash-alt"></i>
         </button>
       </li>

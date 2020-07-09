@@ -52,8 +52,9 @@ class App extends Component {
           handleInput={this.handleInputNewCat}
           currentCategory={this.state.currentCategory} />
           </div>
-        <footer> <a href="https://nikkster.tech">nikkster.tech</a></footer>
-
+          <div className="footer-div">
+            <footer> <a href="https://nikkster.tech">nikkster.tech</a></footer>
+          </div>
       </div>
     );
   }
